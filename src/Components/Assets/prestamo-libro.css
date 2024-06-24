@@ -1,0 +1,129 @@
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    height: auto;
+    position: left;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    width: 1800px;
+    height: 35px;
+  }
+  
+  .servicios{
+    display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  justify-content: flex-end;
+  padding-left: 5%;
+  }
+  
+  
+  .banner-text{
+    text-align: center;
+  }
+  
+  footer{
+    background-color: #152b5c;
+    color: #fff;
+  }
+  
+  .button-images{
+    background-color: #152b5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button {
+    background-color: #fbfcff;
+    color: #152b5c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .search {
+    background-color: #fbfcff;
+    color: #152b5c;
+    border: none;
+    border-radius: 10px;
+    cursor: text;
+  }
+  
+  .tabla-libros {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tabla-libros th, .tabla-libros td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tabla-libros th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .tabla-libros tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabla-libros tr:hover {
+    background-color: #ddd;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    cursor: text;
+  }
+
+  .backgroundPrestamo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+  .button{
+    background-color: #152b5c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
